@@ -1,0 +1,32 @@
+{
+    "name": "nijens/range",
+    "type": "library",
+    "description": "Ruby range syntax parser for PHP.",
+    "keywords": [
+        "Ruby", "Yaml", "range"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Nijens",
+            "email": "nijens.niels@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nijens\\Range\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nijens\\Range\\Test\\": "tests/"
+        }
+    }
+}
