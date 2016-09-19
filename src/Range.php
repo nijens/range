@@ -16,7 +16,7 @@ class Range
      *
      * @var string
      */
-    const REGEX = '#(\-?\d(?:\.\d)?)\.\.(\.?)(\-?\d(?:\.\d)?)#';
+    const REGEX = '#(\-?\d+(?:\.\d+)?)\.\.(\.?)(\-?\d+(?:\.\d+)?)#';
 
     /**
      * The from value of the range.
