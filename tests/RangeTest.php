@@ -133,6 +133,9 @@ class RangeTest extends PHPUnit_Framework_TestCase
             array('1.0...6.0', 1.0, 5.0, true),
             array('6.0...1.0', 6.0, 2.0, true),
             array('1...-6', 1, -5, true),
+            array('10..-60', 10, -60, false),
+            array('10...-60', 10, -59, true),
+            array('1.11..6.11', 1.11, 6.11, false),
         );
     }
 }
